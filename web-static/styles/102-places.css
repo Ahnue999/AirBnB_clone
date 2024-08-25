@@ -1,0 +1,131 @@
+.places h1 {
+	font-size: 1.875rem;
+	text-align: left;
+}
+
+section.places {
+	text-align: center;
+}
+
+div.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.places article {
+	display: inline-block;
+	width: 24.375rem; /*390px*/
+	padding: 1.25rem;
+	margin: 1.25rem;
+	border: 0.0625rem solid #FF5A5F;
+	border-radius: 0.25rem;
+}
+
+.places h2 {
+	display: inline-block;
+	font-size: 1.875rem;
+}
+
+
+div.price_by_night {
+	position: relative;
+	left: 2.5rem;
+	display: inline-block;
+	color: #FF5A5F;
+	border: 0.1875rem solid #FF5A5F;
+	border-radius: 100%;
+	min-width: 3.75rem;
+	height: 3.75rem;
+	font-size: 1.875rem;
+	line-height: 3.75rem;
+}
+
+div.information {
+	height: 5rem;
+	border-top: 0.0625rem solid #DDDDDD;
+	border-bottom: 0.0625rem solid #DDDDDD;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 23.8125rem) { /*381px*/
+	div.information {
+		padding-bottom: 5rem;
+	}
+}
+
+div.information div {
+	width: 6.25rem;
+	height: 100%; 
+	line-height: 8.75rem;
+	background-repeat: no-repeat;
+	background-position: 60% 0.3125;
+}
+
+div.max_guest {
+	background: url(../images/icon_group.png);
+}
+
+div.number_rooms {
+	background: url(../images/icon_bed.png);
+}
+
+div.number_bathrooms {
+	background: url(../images/icon_bath.png);
+}
+
+/*
+	=====================
+	More Information
+	=====================
+*/
+
+div.user {
+	margin-top: 0.625rem;
+	margin-bottom: 0.625rem;
+}
+div.description,
+div.user {
+	text-align: left;
+}
+
+article .amenities, 
+article .reviews {
+	margin-top: 2.5rem;
+	text-align: left;
+}
+
+article .amenities h2,
+article .reviews h2 {
+	display: block;
+	font-size: 1rem;
+	border-bottom: 0.0625rem solid #DDDDDD;
+}
+
+article .amenities li {
+	background-position: .3125rem 50%;
+	background-repeat: no-repeat;
+	background-size: 1.25rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	padding-left: 3.25rem;
+}
+
+li.pet {
+	background: url(../images/icon_pets.png)
+}
+li.tv {
+	background: url(../images/icon_tv.png)
+}
+li.wifi {
+	background: url(../images/icon_wifi.png)
+}
+
+.reviews h3 {
+	font-size: .875rem;
+}
+.reviews p {
+	font-size: 0.75rem;
+}
