@@ -4,14 +4,18 @@ body {
 	color: #484848;
 	font-size: 14px;
 	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	*/
 }
 
 div.container {
 	max-width: 1000px;
 	margin: 30px auto;
-	background-color: gray;
-	position: relative;
+}
+
+ul, li {
+	padding-left: 0px;
 }
