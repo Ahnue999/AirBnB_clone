@@ -44,8 +44,8 @@ We welcome contributions from everyone! If you'd like to contribute to the AirBn
 
 ## Authors
 
+- Mohamed Abdalah
 - Goodness Atunde
-- Mohamed Abdala
 
 ## License
 
